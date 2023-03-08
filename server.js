@@ -1,7 +1,7 @@
 const express = require('express')
 const cookieParser = require('cookie-parser')
 
-// process.env.CRYP_KEY = 'secret-puk-1234'
+process.env.CRYP_KEY = 'secret-puk-1234'
 
 const carService = require('./services/car.service')
 const userService = require('./services/user.service')

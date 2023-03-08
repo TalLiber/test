@@ -3,8 +3,7 @@
     "version": "1.0.0",
     "scripts": {
         "baba": "dir",
-        "start": "nodemon --ignore \"./data\" server.js",
-        "run": "node server.js"
+        "start": "node server.js"
     },
     "author": "Me",
     "dependencies": {
